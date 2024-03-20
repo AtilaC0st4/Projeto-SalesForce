@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import Footer from "./Footer/page";
-import Header1 from "./Header/page";
+import Footer from "./Footer/footer";
+import Header1 from "./Header/header";
+
+
 
 import './css/estilo.css'
+import Banner from "./Banner/banner";
+import Produtos from "./Produtos/produtos";
 
 export const metadata: Metadata = {
   title: "Criando Rotas com Next",
@@ -21,6 +25,9 @@ export default function RootLayout({
       
       <body>
         <Header1 />
+        <Banner/>
+        <Produtos/>
+
         {children}
         <Footer />
         </body>
