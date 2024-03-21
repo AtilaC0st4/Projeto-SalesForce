@@ -93,9 +93,51 @@ a{
 .img_banner{
     width: 50%;
 }
+
+/* ===================== Novidades =================== */
+
+
+
 /* ===================== Produtos =================== */
 
+.container_produtos{
+    width: 100%;
+    height: auto;
+    background-color: #AAE1F8;
+}
 
+.produtos h2{
+    padding: 50px 0;
+    font-size: 45px;
+    text-align: center;
+    color: #556690;
+}
+
+.conteudo_produtos{
+    width: 85%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.conteudo_produtos img{
+    padding: 50px 0;
+}
+
+.conteudo_produtos p{
+    font-size: 30px;
+}
+
+.txt_produtos{
+    width: 50%;
+    color: #676767;
+    line-height: 1.5;
+    padding-bottom: 100px;
+}
+
+.img_produtos{
+    width: 50%;
+}
 
 /* ===================== Rodapé =================== */
 

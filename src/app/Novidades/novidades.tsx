@@ -34,4 +34,4 @@ const Novidades = () => {
         </>
     )
 }
-export default Novidades();
+export default Novidades;
