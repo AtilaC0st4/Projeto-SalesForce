@@ -1,21 +1,15 @@
 import type { Metadata } from "next";
 import Footer from "./Footer/footer";
 import Header1 from "./Header/header";
-
-
-
-import './css/estilo.css'
+import './css/estilo.css';
 import Banner from "./Banner/banner";
 import Produtos from "./Produtos/produtos";
 import Novidades from "./Novidades/novidades";
 
 export const metadata: Metadata = {
-  title: "Criando Rotas com Next",
-  description: "Aula05",
+  title: "SalesForce",
+  description: "",
 };
-
-
-
 export default function RootLayout({
   children,
 }: Readonly<{

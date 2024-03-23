@@ -96,8 +96,59 @@ a{
 
 /* ===================== Novidades =================== */
 
+.novidades{
+    width: 100%;
+    height: auto;
+}
 
+.novidades h2{
+    padding: 50px 0;
+    font-size: 45px;
+    text-align: center;
+    color: #556690;
+}
 
+.area_cards{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.cards{
+    width: 350px;
+    height: 450px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background-color: #F1EEEE;
+    border-radius: 20px;
+    color: #4D4D4D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+.area_img{
+    width: 350px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    
+}
+
+.cards p{
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
 /* ===================== Produtos =================== */
 
 .container_produtos{
