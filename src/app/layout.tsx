@@ -5,6 +5,9 @@ import './css/estilo.css';
 import Banner from "./Banner/banner";
 import Produtos from "./Produtos/produtos";
 import Novidades from "./Novidades/novidades";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "SalesForce",
@@ -18,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       
-      <body>
+      <body className={inter.className}>
         <Header1 />
         <Banner/>
         <Novidades/>
