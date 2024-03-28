@@ -239,6 +239,34 @@ a{
     font-size: 30px;
 }
 
+/* ===================== Contato =================== */
+
+.contatos{
+    width: 100%;
+    height: auto;
+}
+
+.contatos h2{
+    padding: 50px 0;
+    font-size: 45px;
+    text-align: center;
+    color: #556690;
+}
+
+.contatos p,a{
+    padding-bottom: 50px ;
+    font-size: 35px;
+    color: #556690;
+}
+.contatos a{
+    text-decoration: underline;
+}
+
+.formulario {
+    width: 100%;
+    height: auto;
+}
+
 /* ===================== Rodapé =================== */
 
 .rodape{

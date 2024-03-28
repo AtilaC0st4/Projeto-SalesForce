@@ -7,6 +7,7 @@ import Produtos from "./Produtos/produtos";
 import Novidades from "./Novidades/novidades";
 import { Inter } from "next/font/google";
 import Noticias from "./Noticias/noticias";
+import Contatos from "./Contatos/contatos";
 
 const inter = Inter({ subsets: ["latin"]});
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <Novidades/>
         <Noticias></Noticias>
         <Produtos/>
+        <Contatos></Contatos>
 
         {children}
         <Footer />
