@@ -192,6 +192,53 @@ a{
     width: 50%;
 }
 
+
+/* ===================== noticias =================== */
+
+.noticias{
+    width: 100%;
+    height: auto;
+}
+
+.noticias h2{
+    padding: 50px 0;
+    font-size: 45px;
+    text-align: center;
+    color: #556690;
+}
+
+.area_noticias{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background-color: #F1EEEE;
+    text-align: center;
+}
+
+.area_noticias h3{
+    font-size: 35px;
+    text-align: start;
+    color: #556690;
+}
+
+#content_noticias{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container_noticia{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    text-align: start;
+}
+
+.container_noticia p{
+    font-size: 30px;
+}
+
 /* ===================== Rodapé =================== */
 
 .rodape{

@@ -4,34 +4,46 @@ import Image from "next/image"
 const Noticias = () => {
     return (
         <>
-            <div className="content">
-                <section>
-                    <h2>Novas Noticias</h2>
 
-                    <article>
-                        <h3>Nova área de acessibilidade</h3>
+            <section className="noticias">
 
-                        <div>
+
+
+                <h2>Novas Noticias</h2>
+
+                <article className="area_noticias">
+
+                    
+
+                    <div className="content" id="content_noticias" >
+                        
+                    <h3>Nova área de acessibilidade</h3>
+                       
+                        <div className="container_noticia">
                             <p>A Salesforce lançou uma nova área de acessibilidade, focada em tornar suas plataformas mais
                                 inclusivas.
-                                <br></br>
-                                <br></br>
+                            </p>
+                            <Image src="/imagens/noticias_img1.png" alt="area de acessibilidade salesforce" width={575} height={175}></Image>
+
+                            
+                        </div>
+                        <div className="container_noticia">
+                            
+                            <p>
                                 Com um mascote em forma de camaleão, simbolizando adaptação e flexibilidade, a empresa busca
                                 criar soluções
                                 tecnológicas acessíveis para todos os usuários, independentemente de suas necessidades.
                             </p>
+                            <Image src="/imagens/camaleo_img.png" alt="mascote camaleão" width={340} height={180}></Image>
                         </div>
-                        <div >
-                            <Image src="" alt=""></Image>
-                            <Image src="" alt=""></Image>
-                        </div>
+                    </div>
+                </article>
 
-                    </article>
 
-                </section>
-            </div>
+            </section>
 
 
         </>
     )
 }
+export default Noticias;
