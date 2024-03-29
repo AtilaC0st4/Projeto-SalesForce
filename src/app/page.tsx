@@ -14,7 +14,7 @@ export default function Home() {
       <ClickableDivs></ClickableDivs>
 
 
-    <Menu/> 
+    
 
 
     <Banner/>

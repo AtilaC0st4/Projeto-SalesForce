@@ -50,6 +50,36 @@ a{
 /* ===================== menu acessibilidade =================== */
 
 
+
+.menu_acessibilidade{
+    width: 700px;
+    height: 100px;
+    margin: 50px 0;
+    background-color: #F1EEEE;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    position: fixed;
+    right: 0;
+}
+
+.grupos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px;
+    border-left: #adadad solid 1px;
+}
+
+.grupos span{
+    color: #4D4D4D;
+}
+
+.container_leitor{
+    display: flex;
+    gap: 20px;
+}
+
 .area_acessibilidade{
     width: 250px;
     height: 90px;
@@ -74,6 +104,14 @@ a{
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
+
+.area_icon_acessibilidade{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
 
 
 /* ===================== Banner =================== */
