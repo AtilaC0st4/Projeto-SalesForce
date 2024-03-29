@@ -1,15 +1,10 @@
 import type { Metadata } from "next";
-import Footer from "./Footer/footer";
-import Header1 from "./Header/header";
 import './css/estilo.css';
-import Banner from "./Banner/banner";
-import Produtos from "./Produtos/produtos";
-import Novidades from "./Novidades/novidades";
 import { Inter } from "next/font/google";
-import Noticias from "./Noticias/noticias";
-import Contatos from "./Contatos/contatos";
+import Header1 from "./componentes/Header/header";
+import Footer from "./componentes/Footer/footer";
 
-const inter = Inter({ subsets: ["latin"]});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SalesForce",
@@ -22,19 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      
+
       <body className={inter.className}>
         <Header1 />
-        <Banner/>
-        <Novidades/>
-        <Noticias></Noticias>
-        <Produtos/>
-        <Contatos></Contatos>
-
         {children}
         <Footer />
-        </body>
-      
+      </body>
+
     </html>
   );
 }
