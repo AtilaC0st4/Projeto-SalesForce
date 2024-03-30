@@ -5,7 +5,7 @@ const Noticias = () => {
     return (
         <>
 
-            <section className="noticias">
+            <section className="noticias" id="noticias">
 
 
 

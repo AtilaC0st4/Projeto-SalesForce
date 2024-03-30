@@ -5,7 +5,7 @@ const Contatos = () => {
     return (
         <>
 
-            <section className="contatos">
+            <section className="contatos" id="contatos">
 
                 <div className="content">
 

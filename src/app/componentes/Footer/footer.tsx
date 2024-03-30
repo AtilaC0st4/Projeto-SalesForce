@@ -10,7 +10,7 @@ const Footer = () =>{
                 <section className="rodape_conteudo">
 
                     <div className="redes">
-                    <Image src="/imagens/Logo.png" alt="Logo salesforce" width={100} height={75}></Image>
+                    <a href="./"><Image src="/imagens/Logo.png" alt="Logo salesforce" width={100} height={75}></Image></a>
                         <h3>Redes Sociais</h3>
                         <nav className="menu_redes">
                             <li>
@@ -43,10 +43,10 @@ const Footer = () =>{
                             <Link href="./" >Página Inicial</Link> 
                         </li>
                         <li>
-                            <Link href="" >Produtos</Link>
+                            <Link href="#produtos" >Produtos</Link>
                         </li>
                         <li>
-                            <Link href="" >Notícias</Link>
+                            <Link href="#noticias" >Notícias</Link>
                         </li>
                     </ul>
                     </nav>

@@ -4,7 +4,7 @@ import Noticias from './componentes/Noticias/noticias';
 import Novidades from './componentes/Novidades/novidades';
 import Produtos from './componentes/Produtos/produtos';
 import ClickableDivs from './componentes/Teste/teste';
-import Menu from './componentes/menu/menu';
+
 
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
 
     
 
-
+    
     <Banner/>
     <Novidades/>
     <Produtos/>

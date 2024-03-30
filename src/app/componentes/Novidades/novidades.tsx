@@ -5,7 +5,7 @@ const Novidades = () => {
     return (
         <>
             <div className="content">
-                <section className="novidades" >
+                <section className="novidades" id="novidades">
                     <h2>Veja o que há de novo em nosso portal</h2>
                     <div className="area_cards">
 

@@ -4,10 +4,10 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 
 const ClickableDivs: React.FC = () => {
-  // Estado para controlar a visibilidade das divs
+  
   const [isFirstDivVisible, setIsFirstDivVisible] = useState(true);
 
-  // Função para alternar a visibilidade das divs
+  
   const toggleDivs = () => {
     setIsFirstDivVisible(!isFirstDivVisible);
   };
