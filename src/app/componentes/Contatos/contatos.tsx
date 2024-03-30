@@ -28,7 +28,7 @@ const Contatos = () => {
                             <div className="area_campo">
 
                                 <label htmlFor="sobrenome">Sobrenome</label>
-                                <input placeholder="sobrenome" type="text" name="sobrenome" id="sobrenome" required></input>
+                                <input placeholder="Sobrenome" type="text" name="sobrenome" id="sobrenome" required></input>
 
                             </div>
 
@@ -39,14 +39,14 @@ const Contatos = () => {
                             <div className="area_campo">
 
                                 <label htmlFor="empresa">Empresa</label>
-                                <input placeholder="empresa" type="text" name="empresa" id="empresa" required></input>
+                                <input placeholder="Empresa" type="text" name="empresa" id="empresa" required></input>
 
                             </div>
 
                             <div className="area_campo">
 
                                 <label htmlFor="segmento">Segmento</label>
-                                <input placeholder="segmento" type="text" name="segmento" id="segmento" required></input>
+                                <input placeholder="Segmento" type="text" name="segmento" id="segmento" required></input>
                             </div>
 
                         </div>
@@ -55,24 +55,28 @@ const Contatos = () => {
 
                             <div className="area_campo">
 
-                                <label htmlFor="telefone">Telefone</label>
+                                <label htmlFor="Telefone">Telefone</label>
                                 <input placeholder="Telefone" type="text" name="Telefone" id="Telefone" required></input>
 
                             </div>
 
                             <div className="area_campo">
 
-                                <label htmlFor="email">Email</label>
-                                <input placeholder="email" type="email" name="email" id="email" required></input>
+                                <label htmlFor="email">E-mail</label>
+                                <input placeholder="E-mail" type="email" name="email" id="email" required></input>
 
                             </div>
 
                         </div>
 
-                        <div className="area_campo">
+                        <div className="linha_campo">
 
-                            <label htmlFor="perguntas">Perguntas ou comentários</label>
-                            <textarea placeholder="perguntas ou comentários" name="perguntas" id="perguntas"></textarea>
+                            <div className="area_campo">
+
+                                <label htmlFor="perguntas">Perguntas ou comentários</label>
+                                <textarea placeholder="perguntas ou comentários" name="perguntas" id="perguntas"></textarea>
+
+                            </div>
 
                         </div>
 

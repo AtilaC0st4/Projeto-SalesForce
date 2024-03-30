@@ -9,14 +9,14 @@ const Header1 = () => {
             <header className="cabecalho">
                 <div className="content">
                     <nav className="menu">
-                        <Image src="/imagens/Logo.png" alt="Logo salesforce" width={50} height={40}></Image>
+                        <Image src="/imagens/Logo.png" alt="Logo salesforce" width={80} height={60}></Image>
 
                         <ul className="menu_rotas">
                             <li>
-                                <Link href="" >Página Inicial</Link>
+                                <Link href="./" >Página Inicial</Link>
                             </li>
                             <li>
-                                <Link href="" >Produtos</Link>
+                                <Link href="#produtos" >Produtos</Link>
                             </li>
                             <li>
                                 <Link href="" >Notícias</Link>

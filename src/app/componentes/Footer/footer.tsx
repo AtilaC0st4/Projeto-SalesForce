@@ -14,22 +14,22 @@ const Footer = () =>{
                         <h3>Redes Sociais</h3>
                         <nav className="menu_redes">
                             <li>
-                                <Link href="">
+                                <Link href="https://www.instagram.com/salesforcebrasil/">
                                     <Image src="/imagens/instagram.png" alt="Logo Do Instagram" width={20} height={20}></Image>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="">
+                                <Link href="https://www.facebook.com/salesforce?mibextid=ZbWKwL">
                                     <Image src="/imagens/facebook.png" alt="Logo Do Facebook" width={20} height={20}></Image>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="">
+                                <Link href="https://www.linkedin.com/company/salesforce/">
                                     <Image src="/imagens/linkedin.png" alt="Logo Do Linkedin" width={20} height={20}></Image>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="">
+                                <Link href="https://www.youtube.com/salesforce">
                                     <Image src="/imagens/youtube.png" alt="Logo Do Youtube" width={20} height={20}></Image>
                                 </Link>
                             </li>

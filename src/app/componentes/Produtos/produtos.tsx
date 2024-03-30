@@ -4,7 +4,7 @@ import Image from "next/image"
 const Produtos = () => {
     return (
         <>
-            <section className="produtos">
+            <section className="produtos" id="produtos">
                 <h2>Produtos</h2>
                 <div className="container_produtos">
                     <div className="conteudo_produtos">

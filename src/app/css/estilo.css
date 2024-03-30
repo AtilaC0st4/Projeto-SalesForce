@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0 auto;
     padding: 0;
     list-style: none;
-    text-decoration: none;  
+    text-decoration: none;
     font-size: large;
 }
 
-a{
+a {
     color: #4D4D4D;
 }
 
-.content{
+.content {
     width: 85%;
 }
 
@@ -18,13 +18,15 @@ a{
 
 /* ===================== Cabeçalho ==================== */
 
-.cabecalho{
+.cabecalho {
     width: 100%;
-    height: 75px;
+    height: 90px;
     background-color: #F1EEEE;
+    display: flex;
+    align-items: center;
 }
 
-.menu{
+.menu {
     width: 100%;
     height: 75px;
     display: flex;
@@ -32,26 +34,27 @@ a{
     align-items: center;
 }
 
-.menu_rotas{
+.menu_rotas {
     display: flex;
     gap: 25px;
 }
 
-.menu_entre{
+.menu_entre {
     display: flex;
     gap: 25px;
 }
 
-#txt_sublinhado{
+#txt_sublinhado {
     color: #556690;
     text-decoration: underline;
-    
+
 }
+
 /* ===================== menu acessibilidade =================== */
 
 
 
-.menu_acessibilidade{
+.menu_acessibilidade {
     width: 700px;
     height: 100px;
     margin: 50px 0;
@@ -63,7 +66,7 @@ a{
     right: 0;
 }
 
-.grupos{
+.grupos {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -71,16 +74,16 @@ a{
     border-left: #adadad solid 1px;
 }
 
-.grupos span{
+.grupos span {
     color: #4D4D4D;
 }
 
-.container_leitor{
+.container_leitor {
     display: flex;
     gap: 20px;
 }
 
-.area_acessibilidade{
+.area_acessibilidade {
     width: 250px;
     height: 90px;
     margin: 50px 0;
@@ -93,19 +96,20 @@ a{
     position: fixed;
     right: 0;
 }
-.area_seta{
+
+.area_seta {
     width: auto;
     height: 90px;
     margin: 0;
     background-color: #009EE0;
     display: flex;
     align-items: center;
-    cursor: pointer;   
+    cursor: pointer;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-.area_icon_acessibilidade{
+.area_icon_acessibilidade {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -116,34 +120,34 @@ a{
 
 /* ===================== Banner =================== */
 
-.banner{
+.banner {
     width: 100%;
     height: auto;
-    padding: 50px 0 ;
+    padding: 50px 0;
     display: flex;
 }
 
-.txt_banner{
+.txt_banner {
     width: 50%;
     margin: 50px;
     display: flex;
     flex-direction: column;
 }
 
-.txt_banner h1{
+.txt_banner h1 {
     font-size: 55px;
     font-weight: bold;
     color: #556690;
     margin-bottom: 50px;
 }
 
-.txt_banner p{
+.txt_banner p {
     font-size: x-large;
     color: #676767;
     line-height: 1.2;
 }
 
-.btn_conheca{
+.btn_conheca {
     margin-top: 50px;
     padding: 10px;
     color: #F1EEEE;
@@ -153,29 +157,29 @@ a{
     cursor: pointer;
 }
 
-.btn_conheca:hover{
+.btn_conheca:hover {
     background-color: #0B5CAB;
 }
 
-.img_banner{
+.img_banner {
     width: 50%;
 }
 
 /* ===================== Novidades =================== */
 
-.novidades{
+.novidades {
     width: 100%;
     height: auto;
 }
 
-.novidades h2{
+.novidades h2 {
     padding: 50px 0;
     font-size: 45px;
     text-align: center;
     color: #556690;
 }
 
-.area_cards{
+.area_cards {
     width: 100%;
     height: auto;
     margin-top: 50px;
@@ -185,7 +189,7 @@ a{
     gap: 30px;
 }
 
-.cards{
+.cards {
     width: 350px;
     height: 450px;
     padding-bottom: 30px;
@@ -200,79 +204,80 @@ a{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
 }
 
-.area_img{
+.area_img {
     width: 350px;
     height: auto;
     display: flex;
     align-items: center;
     background-color: #fff;
-    border-top-left-radius: 20px ;
-    border-top-right-radius: 20px ;
-    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
 }
 
-.cards p{
+.cards p {
     padding: 0 30px;
     font-size: 20px;
     font-weight: 500;
 }
+
 /* ===================== Produtos =================== */
 
-.container_produtos{
+.container_produtos {
     width: 100%;
     height: auto;
     background-color: #AAE1F8;
 }
 
-.produtos h2{
+.produtos h2 {
     padding: 50px 0;
     font-size: 45px;
     text-align: center;
     color: #556690;
 }
 
-.conteudo_produtos{
+.conteudo_produtos {
     width: 85%;
     height: auto;
     display: flex;
     gap: 50px;
 }
 
-.conteudo_produtos img{
+.conteudo_produtos img {
     padding: 50px 0;
 }
 
-.conteudo_produtos p{
+.conteudo_produtos p {
     font-size: 30px;
 }
 
-.txt_produtos{
+.txt_produtos {
     width: 50%;
     color: #676767;
     line-height: 1.5;
     padding-bottom: 100px;
 }
 
-.img_produtos{
+.img_produtos {
     width: 50%;
 }
 
 
 /* ===================== noticias =================== */
 
-.noticias{
+.noticias {
     width: 100%;
     height: auto;
 }
 
-.noticias h2{
+.noticias h2 {
     padding: 50px 0;
     font-size: 45px;
     text-align: center;
     color: #556690;
 }
 
-.area_noticias{
+.area_noticias {
     width: 100%;
     height: auto;
     padding-top: 50px;
@@ -280,128 +285,166 @@ a{
     text-align: center;
 }
 
-.area_noticias h3{
+.area_noticias h3 {
     font-size: 35px;
     text-align: start;
     color: #556690;
 }
 
-#content_noticias{
+#content_noticias {
     padding: 50px 0;
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
-.container_noticia{
+.container_noticia {
     display: flex;
     gap: 50px;
     align-items: center;
     text-align: start;
 }
 
-.container_noticia p{
+.container_noticia p {
     font-size: 30px;
 }
 
 /* ===================== Contato =================== */
 
-.contatos{
+.contatos {
     width: 100%;
     height: auto;
 }
 
-.contatos h2{
+.contatos h2 {
     padding: 50px 0;
     font-size: 45px;
     text-align: center;
     color: #556690;
 }
 
-.contatos p, .contatos a{
-    padding-bottom: 50px ;
+.contatos p,
+.contatos a {
+    padding-bottom: 50px;
     font-size: 35px;
     color: #556690;
 }
-.contatos a{
+
+.contatos a {
     text-decoration: underline;
 }
 
+.contatos .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .formulario {
-    width: 100%;
-    height: auto;
-    margin-bottom: 50px;
-    padding: 50px 0;
-    background-color: #F1EEEE ;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-.linha_campo{
-    display: flex;
-    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-.area_campo {
-    display: flex;
-    flex-direction: column;
-    
+.formulario .linha_campo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
 
-.area_campo label{
-    text-align: start;
+.formulario .linha_campo.textarea {
+  grid-template-columns: 1fr !important; /* Forçar uma coluna */
 }
-  
+
+.formulario .area_campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario label {
+  margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.formulario button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #0056b3;
+}
 
 
 /* ===================== Rodapé =================== */
 
-.rodape{
+.rodape {
     width: 100%;
     height: auto;
     background-color: #0B5CAB;
 }
 
-.rodape_conteudo{
+.rodape_conteudo {
     width: 100%;
     height: auto;
     background-color: #F1EEEE;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.redes{
+.redes {
     padding: 50px;
 }
 
-.redes h3{
+.redes h3 {
     margin: 20px 0;
     color: #676767;
 }
 
-.menu_redes{
+.menu_redes {
     display: flex;
     gap: 15px;
-    
+
 }
 
-.menu_links h3,.menu_contato h3 {
+.menu_links,
+.menu_contato{
+    padding-bottom: 30px;
+}
+
+.menu_links h3,
+.menu_contato h3 {
     margin-bottom: 15px;
     font-size: xx-large;
     color: #556690;
     font-weight: bold;
 }
 
-.menu_links li,.menu_contato li {
+.menu_links li,
+.menu_contato li {
     margin-left: 15px;
     line-height: 1.5;
 }
 
-.menu_contato a{
+.menu_contato a {
     text-decoration: underline;
 }
 
-.rodape span{
+.rodape span {
     padding: 50px;
     font-size: large;
     color: #F1EEEE;
@@ -409,3 +452,5 @@ a{
     justify-content: center;
 }
 
+
+/* teste */
