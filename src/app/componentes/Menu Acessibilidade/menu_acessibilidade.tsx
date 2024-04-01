@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import TextToSpeech from '../teste2/teste2';
+import TextToSpeech from '../Leitor/leitor';
 
 const ClickableDivs: React.FC = () => {
   

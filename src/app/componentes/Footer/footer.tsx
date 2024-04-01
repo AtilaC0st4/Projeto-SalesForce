@@ -63,10 +63,10 @@ const Footer = () => {
                         </ul>
                     </nav>
                 </section>
-                
+
                 <div className="rodape_txt">
 
-                    <span>Átila Costa - RM552650 | Rafael Vida - RM553721 | Gabriel Plasa - 553527</span>
+                    <span>Átila Costa - RM552650 | Rafael Vida - RM553721 | Gabriel Plasa - RM553527</span>
                     <span>©2023 InovaTech. Todos os direitos reservados. Inovação em cada solução.</span>
 
                 </div>

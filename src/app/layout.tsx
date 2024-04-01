@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import './css/estilo.css';
+import './../../public/css/estilo.css';
 import { Inter } from "next/font/google";
 import Header1 from "./componentes/Header/header";
 import Footer from "./componentes/Footer/footer";

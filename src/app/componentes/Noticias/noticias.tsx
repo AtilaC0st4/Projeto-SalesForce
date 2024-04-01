@@ -23,7 +23,7 @@ const Noticias = () => {
                             <p>A Salesforce lançou uma nova área de acessibilidade, focada em tornar suas plataformas mais
                                 inclusivas.
                             </p>
-                            <Image src="/imagens/noticias_img1.png" alt="area de acessibilidade salesforce" width={575} height={175}></Image>
+                            <Image src="/imagens/noticias_img1.png" alt="area de acessibilidade salesforce" width={575} height={120}></Image>
 
                             
                         </div>
