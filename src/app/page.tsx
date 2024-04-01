@@ -7,14 +7,16 @@ import ClickableDivs from './componentes/Teste/teste';
 
 
 
-export default function Home() {
+ const Home: React.FC = () => { 
+
+  const texts = ["Primeiro texto", "Segundo texto", "Terceiro texto"];
   return (
     <>
     <main>
       <ClickableDivs></ClickableDivs>
 
 
-    
+      
 
     
     <Banner/>
@@ -25,3 +27,4 @@ export default function Home() {
     </main>
     </>
   )}
+  export default Home;
