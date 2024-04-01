@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Footer = () =>{
-    return(
+const Footer = () => {
+    return (
         <>
-        
+
             <footer className="rodape">
-                
+
                 <section className="rodape_conteudo">
 
                     <div className="redes">
-                    <a href="./"><Image src="/imagens/Logo.png" alt="Logo salesforce" width={100} height={75}></Image></a>
+                        <a href="./"><Image src="/imagens/Logo.png" alt="Logo salesforce" width={100} height={75}></Image></a>
                         <h3>Redes Sociais</h3>
                         <nav className="menu_redes">
                             <li>
@@ -39,20 +39,20 @@ const Footer = () =>{
                     <nav className="menu_links">
                         <h3>Links Úteis</h3>
                         <ul>
-                        <li>
-                            <Link href="./" >Página Inicial</Link> 
-                        </li>
-                        <li>
-                            <Link href="#produtos" >Produtos</Link>
-                        </li>
-                        <li>
-                            <Link href="#noticias" >Notícias</Link>
-                        </li>
-                    </ul>
+                            <li>
+                                <Link href="./" >Página Inicial</Link>
+                            </li>
+                            <li>
+                                <Link href="#produtos" >Produtos</Link>
+                            </li>
+                            <li>
+                                <Link href="#noticias" >Notícias</Link>
+                            </li>
+                        </ul>
                     </nav>
 
                     <nav className="menu_contato">
-                    <h3>Entre em contato</h3>
+                        <h3>Entre em contato</h3>
                         <ul>
                             <li>
                                 <Link href="tel:5508008911887">Ligue 0800 891 1887</Link>
@@ -63,10 +63,16 @@ const Footer = () =>{
                         </ul>
                     </nav>
                 </section>
-                <span>©2023 InovaTech. Todos os direitos reservados. Inovação em cada solução.</span>
                 
+                <div className="rodape_txt">
+
+                    <span>Átila Costa - RM552650 | Rafael Vida - RM553721 | Gabriel Plasa - 553527</span>
+                    <span>©2023 InovaTech. Todos os direitos reservados. Inovação em cada solução.</span>
+
+                </div>
+
             </footer>
-            
+
         </>
     )
 }

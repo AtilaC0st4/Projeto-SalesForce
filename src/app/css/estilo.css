@@ -83,8 +83,8 @@ a {
     gap: 20px;
 }
 
-.icons{
-cursor: pointer;
+.icons {
+    cursor: pointer;
 
 }
 
@@ -131,6 +131,13 @@ cursor: pointer;
     height: auto;
     padding: 50px 0;
     display: flex;
+    align-items: center;
+}
+
+.img_banner {
+    max-width: 600px;
+    min-width: 500PX;
+    padding-bottom: 30px;
 }
 
 .txt_banner {
@@ -169,6 +176,8 @@ cursor: pointer;
 
 .img_banner {
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 /* ===================== Novidades =================== */
@@ -250,6 +259,8 @@ cursor: pointer;
 
 .conteudo_produtos img {
     padding: 50px 0;
+    max-width: 500px;
+    min-width: 450px;
 }
 
 .conteudo_produtos p {
@@ -265,6 +276,10 @@ cursor: pointer;
 
 .img_produtos {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
@@ -340,56 +355,57 @@ cursor: pointer;
 }
 
 .contatos .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .formulario {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .formulario .linha_campo {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
 }
 
 .formulario .linha_campo.textarea {
-  grid-template-columns: 1fr !important; /* Forçar uma coluna */
+    grid-template-columns: 1fr !important;
+    /* Forçar uma coluna */
 }
 
 .formulario .area_campo {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .formulario label {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .formulario input,
 .formulario textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .formulario button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .formulario button:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }
 
 
@@ -427,7 +443,7 @@ cursor: pointer;
 }
 
 .menu_links,
-.menu_contato{
+.menu_contato {
     padding-bottom: 30px;
 }
 
@@ -449,13 +465,12 @@ cursor: pointer;
     text-decoration: underline;
 }
 
-.rodape span {
+.rodape_txt {
     padding: 50px;
     font-size: large;
     color: #F1EEEE;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 5px;
 }
-
-
-/* teste */
