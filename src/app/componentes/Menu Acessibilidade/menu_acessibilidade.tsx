@@ -4,7 +4,9 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import TextToSpeech from '../Leitor/leitor';
 
+
 const ClickableDivs: React.FC = () => {
+
   
   const [isFirstDivVisible, setIsFirstDivVisible] = useState(true);
 
@@ -87,7 +89,7 @@ const ClickableDivs: React.FC = () => {
             </div>
 
             <div className="grupos">
-
+            
               <Image src="/imagens/mascara.png" alt="icone de mascara de foto" width={35} height={35}></Image>
               <span>Máscara de foco</span>
 

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
+
 const Header1 = () => {
     return (
         <>
@@ -25,9 +26,6 @@ const Header1 = () => {
                         <ul className="menu_entre">
                             <li >
                                 <Link href="#contatos" id="txt_sublinhado">Entre em contato</Link>
-                            </li>
-                            <li>
-                                <Link href="">Entre</Link>
                             </li>
                         </ul>
                     </nav>

@@ -15,7 +15,7 @@ import ClickableDivs from './componentes/Menu Acessibilidade/menu_acessibilidade
     <main>
       <ClickableDivs></ClickableDivs>
 
-
+      
       
 
     

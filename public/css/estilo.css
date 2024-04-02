@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
     font-size: large;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -37,11 +38,13 @@ a {
 .menu_rotas {
     display: flex;
     gap: 25px;
+    z-index: 99;
 }
 
 .menu_entre {
     display: flex;
     gap: 25px;
+    z-index: 99;
 }
 
 #txt_sublinhado {
@@ -64,6 +67,8 @@ a {
     border-radius: 25px;
     position: fixed;
     right: 0;
+    z-index: 99;
+
 }
 
 .grupos {
@@ -85,7 +90,6 @@ a {
 
 .icons {
     cursor: pointer;
-
 }
 
 
@@ -113,6 +117,7 @@ a {
     cursor: pointer;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    z-index: 99;
 }
 
 .area_icon_acessibilidade {
@@ -168,6 +173,7 @@ a {
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+    z-index: 99;
 }
 
 .btn_conheca:hover {
@@ -334,6 +340,7 @@ a {
 .contatos {
     width: 100%;
     height: auto;
+    padding-bottom: 50px;
 }
 
 .contatos h2 {
@@ -360,52 +367,69 @@ a {
     align-items: center;
 }
 
+form {
+    background-color: #F1EEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
 .formulario {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;   
 }
 
-.formulario .linha_campo {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+.area_campo {
+    padding: 0 10px;
 }
 
-.formulario .linha_campo.textarea {
-    grid-template-columns: 1fr !important;
-    /* Forçar uma coluna */
+.area_campo label {
+    font-size: 20px;
+    color: #4D4D4D;
 }
 
-.formulario .area_campo {
+.area_campo input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.area_campo textarea{
+    width: 300px;
+    height: 100px;
+}
+
+#perguntas{
     display: flex;
     flex-direction: column;
 }
 
-.formulario label {
-    margin-bottom: 5px;
-}
-
-.formulario input,
-.formulario textarea {
+.btn_forms {
+    width: 70px;
+    height: 40px;
+    margin-top: 50px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-}
-
-.formulario button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+    color: #F1EEEE;
+    background-color: #009EE0;
+    border: 0;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    z-index: 99;
 }
 
-.formulario button:hover {
-    background-color: #0056b3;
+
+.btn_forms:hover {
+    background-color: #0B5CAB;
+    
+
 }
 
 
@@ -439,12 +463,14 @@ a {
 .menu_redes {
     display: flex;
     gap: 15px;
+    z-index: 99;
 
 }
 
 .menu_links,
 .menu_contato {
     padding-bottom: 30px;
+    z-index: 99;
 }
 
 .menu_links h3,
@@ -477,3 +503,13 @@ a {
 
 /* ===================== Responsividade =================== */
 
+@media screen and (min-width: 430px) and (max-width: 1000px) {
+    .banner,.conteudo_produtos, .container_noticia{
+
+        flex-direction: column;
+    }
+
+ 
+  
+  }
+  

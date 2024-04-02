@@ -14,7 +14,8 @@ const Contatos = () => {
                     <p>Se você tiver alguma dúvida ou quiser solicitar um orçamento, por favor preencha o formulário abaixo,
                         entre em contato conosco ligando para o número <a href={`tel:0800 891 1887}`}>0800 891 1887</a> ou envie um e-mail para <a href={`mailto:salesforce@salesforce.com`}>salesforce@email.com</a>.</p>
 
-                    <form className="formulario" action="">
+                    <form action="">
+                    <section className="formulario" >
 
                         <div className="linha_campo">
 
@@ -71,16 +72,17 @@ const Contatos = () => {
 
                         <div className="linha_campo">
 
-                            <div className="area_campo">
+                            <div className="area_campo" id="perguntas" >
 
                                 <label htmlFor="perguntas">Perguntas ou comentários</label>
-                                <textarea placeholder="perguntas ou comentários" name="perguntas" id="perguntas"></textarea>
+                                <textarea placeholder="perguntas ou comentários" name="perguntas" ></textarea>
 
                             </div>
 
                         </div>
+                        </section>
 
-                        <button type="submit">enviar</button>
+                        <button  className="btn_forms" type="submit">Enviar</button>
 
                     </form>
                 </div>

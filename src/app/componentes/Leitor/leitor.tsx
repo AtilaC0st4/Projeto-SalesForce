@@ -14,12 +14,14 @@ const TextToSpeech: React.FC<TextToSpeechProps> = ({ text }) => {
     const newUtterance = new SpeechSynthesisUtterance(text);
     window.speechSynthesis.speak(newUtterance);
     setUtterance(newUtterance);
+    console.log("hello word!")
  };
 
  const pauseText = () => {
     if (utterance) {
       window.speechSynthesis.pause();
     }
+
  };
 
  const resumeText = () => {
