@@ -3,48 +3,48 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 
-interface TextToSpeechProps {
+interface LeitorDePaginaProps {
  text: string;
 }
 
-const TextToSpeech: React.FC<TextToSpeechProps> = ({ text }) => {
- const [utterance, setUtterance] = useState<SpeechSynthesisUtterance | null>(null);
+const LeitorDePagina: React.FC<LeitorDePaginaProps> = ({ text }) => {
+ const [texto, setTexto] = useState<SpeechSynthesisUtterance | null>(null);
 
- const speakText = () => {
-    const newUtterance = new SpeechSynthesisUtterance(text);
-    window.speechSynthesis.speak(newUtterance);
-    setUtterance(newUtterance);
-    console.log("hello word!")
+ const IniciarLeitor = () => {
+    const newTexto = new SpeechSynthesisUtterance(text);
+    window.speechSynthesis.speak(newTexto);
+    setTexto(newTexto);
+    console.log("teste")
  };
 
- const pauseText = () => {
-    if (utterance) {
+ const pausaLeitor = () => {
+    if (texto) {
       window.speechSynthesis.pause();
     }
 
  };
 
- const resumeText = () => {
-    if (utterance) {
+ const resumeLeitor = () => {
+    if (texto) {
       window.speechSynthesis.resume();
     }
  };
 
- const stopText = () => {
-    if (utterance) {
+ const stopLeitor = () => {
+    if (texto) {
       window.speechSynthesis.cancel();
-      setUtterance(null); // Reset the utterance state
+      setTexto(null); 
     }
  };
 
  return (
     <div className='container_leitor'>
-      <div className='icons' onClick={speakText}> <Image src="/imagens/leitor.png" alt="icone de leitor de página" width={35} height={35}></Image></div>
-      <div className='icons' onClick={pauseText}><Image src="/imagens/pause.png" alt="icone de pause" width={35} height={35}></Image></div>
-      <div className='icons' onClick={resumeText}><Image src="/imagens/play.png" alt="icone de play" width={35} height={35}></Image></div>
-      <div className='icons' onClick={stopText}><Image src="/imagens/stop.png" alt="icone de stop" width={35} height={35}></Image></div>
+      <div className='icons' onClick={IniciarLeitor}> <Image src="/imagens/leitor.png" alt="icone de leitor de página" width={35} height={35}></Image></div>
+      <div className='icons' onClick={pausaLeitor}><Image src="/imagens/pause.png" alt="icone de pause" width={35} height={35}></Image></div>
+      <div className='icons' onClick={resumeLeitor}><Image src="/imagens/play.png" alt="icone de play" width={35} height={35}></Image></div>
+      <div className='icons' onClick={stopLeitor}><Image src="/imagens/stop.png" alt="icone de stop" width={35} height={35}></Image></div>
     </div>
  );
 };
 
-export default TextToSpeech;
+export default LeitorDePagina;

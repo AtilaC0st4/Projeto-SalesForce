@@ -2,23 +2,23 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import TextToSpeech from '../Leitor/leitor';
+import LeitorDePagina from '../Leitor/leitor';
 
 
-const ClickableDivs: React.FC = () => {
-
-  
-  const [isFirstDivVisible, setIsFirstDivVisible] = useState(true);
+const Menu_acessibilidade: React.FC = () => {
 
   
-  const toggleDivs = () => {
-    setIsFirstDivVisible(!isFirstDivVisible);
+  const [visivel, setvisivel] = useState(true);
+
+  
+  const trocar = () => {
+    setvisivel(!visivel);
   };
 
   return (
     <div>
-      {isFirstDivVisible ? (
-        <div onClick={toggleDivs} style={{ cursor: 'pointer' }}>
+      {visivel ? (
+        <div onClick={trocar} style={{ cursor: 'pointer' }}>
           <div className="area_acessibilidade">
 
             <div className="area_seta">
@@ -49,7 +49,7 @@ const ClickableDivs: React.FC = () => {
 
               <div className="container_leitor">
 
-                <TextToSpeech text='
+                <LeitorDePagina text='
                 Entregue sucesso agora com o Salesforce Customer 360. 
                 O Customer 360 é a nossa suíte de produtos e serviços que ajuda 98% dos clientes a alcançar ou superar suas metas de ROI (retorno sobre investimento).
 
@@ -80,7 +80,7 @@ const ClickableDivs: React.FC = () => {
                  ou envie um e-mail para email salesforce@email.com .
 
 
-                '></TextToSpeech>
+                '></LeitorDePagina>
 
               </div>
 
@@ -101,7 +101,7 @@ const ClickableDivs: React.FC = () => {
               <span>Contraste</span>
 
             </div>
-            <div onClick={toggleDivs} style={{ cursor: 'pointer' }}>
+            <div onClick={trocar} style={{ cursor: 'pointer' }}>
             <Image src="/imagens/seta_direita.png" alt="seta para direita" width={50} height={50}></Image>
             </div>
           </div>
@@ -111,4 +111,4 @@ const ClickableDivs: React.FC = () => {
   );
 };
 
-export default ClickableDivs;
+export default Menu_acessibilidade;
