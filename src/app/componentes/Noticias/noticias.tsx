@@ -13,28 +13,28 @@ const Noticias = () => {
 
                 <article className="area_noticias">
 
-                    
+                <h3>Nova área de acessibilidade</h3>
 
                     <div className="content" id="content_noticias" >
                         
-                    <h3>Nova área de acessibilidade</h3>
                        
                         <div className="container_noticia">
+                            
+                            <Image id="noticias_img1" src="/imagens/noticias_img.png" alt="area de acessibilidade salesforce" width={350} height={175}></Image>
+                            
                             <p>A Salesforce lançou uma nova área de acessibilidade, focada em tornar suas plataformas mais
                                 inclusivas.
                             </p>
-                            <Image id="noticias_img1" src="/imagens/noticias_img.png" alt="area de acessibilidade salesforce" width={350} height={175}></Image>
-
                             
                         </div>
                         <div className="container_noticia">
                             
+                            <Image src="/imagens/camaleo_img.png" alt="mascote camaleão" width={340} height={180}></Image>
                             <p>
                                 Com um mascote em forma de camaleão, simbolizando adaptação e flexibilidade, a empresa busca
                                 criar soluções
                                 tecnológicas acessíveis para todos os usuários, independentemente de suas necessidades.
                             </p>
-                            <Image src="/imagens/camaleo_img.png" alt="mascote camaleão" width={340} height={180}></Image>
                         </div>
                     </div>
                 </article>
