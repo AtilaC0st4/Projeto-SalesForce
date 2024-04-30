@@ -3,6 +3,7 @@ import './../../public/css/estilo.css';
 import { Inter } from "next/font/google";
 import Header1 from "./componentes/Header/header";
 import Footer from "./componentes/Footer/footer";
+import Sidebar from "./componentes/Header/headerResponsivo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
 
       <body className={inter.className}>
         <Header1 />
+        <Sidebar/>
         {children}
         <Footer />
       </body>

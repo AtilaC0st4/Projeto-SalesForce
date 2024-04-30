@@ -59,7 +59,7 @@ const Menu_acessibilidade: React.FC = () => {
                 Apresentação do Novo Mascote e a nova Área de Acessibilidade Salesforce;
                 Reformulação do ChatBot para melhor atendê-los.
 
-                Produtos:
+                 Produtos:
 
                 O Customer 360 da Salesforce é uma plataforma que reúne informações de clientes de diversas fontes para criar um perfil completo de cada cliente. 
                 Isso ajuda as empresas a entender melhor seus clientes e oferecer experiências personalizadas, melhorando seus relacionamentos e impulsionando o engajamento.

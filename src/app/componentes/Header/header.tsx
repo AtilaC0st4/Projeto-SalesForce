@@ -14,9 +14,6 @@ const Header1 = () => {
 
                         <ul className="menu_rotas">
                             <li>
-                                <Link href="./" >Página Inicial</Link>
-                            </li>
-                            <li>
                                 <Link href="#produtos" >Produtos</Link>
                             </li>
                             <li>
@@ -29,6 +26,9 @@ const Header1 = () => {
                             </li>
                         </ul>
                     </nav>
+
+                    
+
                 </div>
             </header>
 

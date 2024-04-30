@@ -37,7 +37,7 @@ a {
 
 .menu_rotas {
     display: flex;
-    gap: 25px;
+    gap: 50px;
     z-index: 99;
 }
 
@@ -548,6 +548,10 @@ form {
     gap: 5px;
 }
 
+.sidebar{
+    display: none;
+}
+
 /* ===================== Responsividade =================== */
 
 @media screen and (min-width: 430px) and (max-width: 1000px) {
@@ -556,6 +560,15 @@ form {
         flex-direction: column;
     }
 
+  
+
+    .cabecalho{
+        display: none;
+    }
+
+    .sidebar{
+        display: block;
+    }
  
   
   }
