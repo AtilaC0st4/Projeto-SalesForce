@@ -60,9 +60,23 @@ a {
     color: #556690;
     text-decoration: underline;
 }
+/* ===================== Sidebar =================== */
+
+.sidebar{
+    width: 100%;
+    height: 90px; 
+    background-color: #F1EEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar_container{
+    display: flex;
+    justify-content: space-around;
+}
 
 /* ===================== menu acessibilidade =================== */
-
 
 
 .menu_acessibilidade {
