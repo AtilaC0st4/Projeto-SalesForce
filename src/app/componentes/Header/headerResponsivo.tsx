@@ -31,14 +31,9 @@ const Sidebar = () => {
             <img src={img} alt="Open Menu" />
           </button>
           </div>
-          <nav
-
-            className={`sidebar ${isOpen ? 'open' : 'closed'}`}
-            style={{
-              opacity: `${isOpen ? "1" : "0"}`,
-              top: `${isOpen ? "0" : "-100%"}`,
-            }}
-          >
+          
+        </div>
+        <nav className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
 
             <ul>
               <li>
@@ -49,7 +44,7 @@ const Sidebar = () => {
               </li>
             </ul>
           </nav>
-        </div>
+
 
       </header>
     </>
