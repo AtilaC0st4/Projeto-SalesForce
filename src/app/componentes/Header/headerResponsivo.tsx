@@ -20,30 +20,36 @@ const Sidebar = () => {
     <>
 
       <header className='sidebar'>
-        <div className="content" >
 
-          <div className='sidebar_container'>
-
-          <a href="./"><Image src="/imagens/Logo.png" alt="Logo salesforce" width={80} height={60}></Image></a>
+        <section className='cabecalho_sidebar'>
+        <div className="content" id='sidebar_btns'>
 
           <button className='btnSidebar' onClick={toggle}>
             {/* Imagem ou ícone para abrir o menu */}
             <img src={img} alt="Open Menu" />
           </button>
-          </div>
-          
+
+          <a href="./"><Image src="/imagens/Logo.png" alt="Logo salesforce" width={80} height={60}></Image></a>
+
+          <button><Image src="/imagens/pessoa.png" alt="Icone de fazer login" width={50} height={50}></Image></button>
+
+
         </div>
+
+        </section>
+
+
         <nav className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
 
-            <ul>
-              <li>
-                <Link href="#produtos" >Produtos</Link>
-              </li>
-              <li>
-                <Link href="#noticias" >Notícias</Link>
-              </li>
-            </ul>
-          </nav>
+          <ul>
+            <li>
+              <Link href="#produtos" >Produtos</Link>
+            </li>
+            <li>
+              <Link href="#noticias" >Notícias</Link>
+            </li>
+          </ul>
+        </nav>
 
 
       </header>
