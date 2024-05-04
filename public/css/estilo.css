@@ -195,20 +195,26 @@ a {
 }
 
 .img_banner {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_banner img{
     max-width: 600px;
     min-width: 500PX;
-    padding-bottom: 30px;
 }
+
 
 .txt_banner {
     width: 50%;
-    margin: 50px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
 }
 
 .txt_banner h1 {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
     color: #556690;
     margin-bottom: 50px;
@@ -235,11 +241,6 @@ a {
     background-color: #0B5CAB;
 }
 
-.img_banner {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
 
 /* ===================== Novidades =================== */
 
@@ -329,14 +330,14 @@ a {
 }
 
 .txt_produtos {
-    width: 50%;
+    width: 60%;
     color: #676767;
     line-height: 1.5;
     padding-bottom: 100px;
 }
 
 .img_produtos {
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -602,6 +603,41 @@ form {
         flex-direction: column;
     }
 
+    .txt_banner{
+        width: 100%;
+        padding: 0 0 50px 0;
+
+    }
+    .txt_banner h1{
+        font-size: 40px;
+    }
+
+    .img_banner{
+        width: 100%;
+    }
+
+    .img_banner img{
+        min-width: 300px;
+        min-height: 300px;
+    }
+
+    .txt_produtos{
+        width: 100%;
+        padding: 0;
+    }
+
+    .txt_produtos img{
+        min-width: 350px;
+    }
+
+    .img_produtos{
+        width: 100%;
+    }
+
+    .img_produtos img{
+        min-width: 400px;
+    }
+
   
 
     .cabecalho{
@@ -622,6 +658,41 @@ form {
         flex-direction: column;
     }
 
+    .txt_banner{
+        width: 100%;
+        padding: 0 0 50px 0;
+
+    }
+    .txt_banner h1{
+        font-size: 40px;
+    }
+
+    .img_banner{
+        width: 100%;
+    }
+
+    .img_banner img{
+        min-width: 300px;
+        min-height: 300px;
+    }
+
+    .txt_produtos{
+        width: 100%;
+        padding: 0;
+    }
+
+    .txt_produtos img{
+        min-width: 350px;
+    }
+
+    .img_produtos{
+        width: 100%;
+    }
+
+    .img_produtos img{
+        min-width: 400px;
+    }
+
   
 
     .cabecalho{
@@ -631,9 +702,7 @@ form {
     .sidebar{
         display: block;
     }
-    
 
- 
   
   }
 
