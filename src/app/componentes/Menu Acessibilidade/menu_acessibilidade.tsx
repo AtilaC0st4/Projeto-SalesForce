@@ -23,13 +23,14 @@ const Menu_acessibilidade: React.FC = () => {
 
             <div className="area_seta">
 
-              <Image src="/imagens/seta_esquerda.png" alt="ícone de seta para esquerda" width={50} height={50}></Image>
+              <Image src="/imagens/vector.png" alt="ícone de seta para esquerda" width={20} height={40} ></Image>
+            
 
             </div>
 
             <div className="area_icon_acessibilidade">
 
-              <Image src="/imagens/icone_acessibilidade.png" alt="ícone de acessibilidade" width={50} height={50}></Image>
+              <Image src="/imagens/icone_acessibilidade.png" alt="ícone de acessibilidade" width={50} height={50} ></Image>
 
               <span>Acessibilidade</span>
 
