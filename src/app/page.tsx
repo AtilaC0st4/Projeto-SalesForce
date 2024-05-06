@@ -4,6 +4,10 @@ import Menu_acessibilidade from './componentes/Menu Acessibilidade/menu_acessibi
 import Noticias from './componentes/Noticias/noticias';
 import Novidades from './componentes/Novidades/novidades';
 import Produtos from './componentes/Produtos/produtos';
+import Header1 from "./componentes/Header/header";
+import Footer from "./componentes/Footer/footer";
+import Sidebar from "./componentes/Header/headerResponsivo";
+
 
 
 
@@ -14,12 +18,15 @@ import Produtos from './componentes/Produtos/produtos';
   return (
     <>
     <main>
+    <Header1 />
+    <Sidebar/>
     <Menu_acessibilidade/>
     <Banner/>
     <Novidades/>
     <Produtos/>
     <Noticias/>
     <Contatos/>
+    <Footer/>
     </main>
     </>
   )}

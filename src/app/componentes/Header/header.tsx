@@ -24,6 +24,7 @@ const Header1 = () => {
                             <li >
                                 <Link href="#contatos" id="txt_sublinhado">Entre em contato</Link>
                             </li>
+                            <li> <Link href="/pageLogin/"><div className="btn_login" > <Image src="/imagens/pessoa-2.png" alt="icone de login" width={40} height={40}></Image> <span>Entrar</span> </div></Link></li>
                         </ul>
                     </nav>
 

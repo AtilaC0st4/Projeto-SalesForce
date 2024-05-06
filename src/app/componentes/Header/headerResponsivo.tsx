@@ -31,7 +31,7 @@ const Sidebar = () => {
 
           <a href="./"><Image src="/imagens/Logo.png" alt="Logo salesforce" width={80} height={60}></Image></a>
 
-          <button><Image src="/imagens/pessoa.png" alt="Icone de fazer login" width={50} height={50}></Image></button>
+          <div> <Link href='/pageLogin/'> <Image src="/imagens/pessoa.png" alt="Icone de fazer login" width={50} height={50}></Image></Link></div>
 
 
         </div>
