@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -17,7 +18,7 @@ const Login: React.FC = () => {
 
                         <span id="span_bemvindo">Bem-vindo à Salesforce! Conecte-se para explorar um mundo de possibilidades empresariais.</span>
 
-                        <span id="span_cadastro">Novo por aqui? <a href="#">Cadastre-se</a> agora para começar a aproveitar todos os benefícios da Salesforce!</span>
+                        <span id="span_cadastro">Novo por aqui? <Link href="/pageCadastro/">Cadastre-se</Link> agora para começar a aproveitar todos os benefícios da Salesforce!</span>
 
                     </div>
 
