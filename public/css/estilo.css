@@ -788,6 +788,24 @@ form {
     gap: 10px;
 }
 
+.content_sexo{
+    margin-left: 0;
+}
+
+
+.area_sexo{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.area_sexo input{
+    width: auto;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+
 .cadastro_forms{
     background-color: #009EE0;
     display: flex;
@@ -862,6 +880,20 @@ form {
 
  
   
+  }
+
+  @media screen and (max-width: 502px){
+    .area_cadastro{
+        flex-direction: column;
+        height: auto;
+        padding-top: 300px;
+    }
+
+    .area_login{
+        flex-direction: column;
+        height: auto;
+    }
+
   }
 
   @media screen and (max-width: 429px) {
@@ -957,9 +989,6 @@ form {
 .area_icon_acessibilidade span{
     display: none;
 }
-
-
-
   
   }
 

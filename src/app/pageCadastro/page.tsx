@@ -8,7 +8,7 @@ const Login: React.FC = () => {
 
     return (
         <>
-        
+
             <section className="cadastro" >
 
                 <div className="area_cadastro">
@@ -37,21 +37,24 @@ const Login: React.FC = () => {
                                 <input type="date" name="data_nascimento" id="data_nascimento" />
                             </label>
 
-                            <div>
+                            <div className="content_sexo">
 
-                                <span>Sexo:</span>
+                                <span>Sexo</span>
 
-                                <label htmlFor="male">Masculino:
+                                <div className="area_sexo">
+                                    <label htmlFor="male">Masculino</label>
                                     <input type="radio" id="male" name="gender" value="male" />
-                                </label>
+                                </div>
 
-                                <label htmlFor="female">Feminino:
+                                <div className="area_sexo">
+                                    <label htmlFor="female">Feminino</label>
                                     <input type="radio" id="female" name="gender" value="female" />
-                                </label>
+                                </div>
 
-                                <label htmlFor="other">Outro:
+                                <div className="area_sexo">
+                                    <label htmlFor="other">Outro</label>
                                     <input type="radio" id="other" name="gender" value="other" />
-                                </label>
+                                </div>
 
                             </div>
 
