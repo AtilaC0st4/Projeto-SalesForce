@@ -89,19 +89,6 @@ const Menu_acessibilidade: React.FC = () => {
 
             </div>
 
-            <div className="grupos">
-            
-              <Image src="/imagens/mascara.png" alt="icone de mascara de foto" width={35} height={35}></Image>
-              <span>Máscara de foco</span>
-
-            </div>
-
-            <div className="grupos">
-
-              <Image src="/imagens/contraste.png" alt="icone de contraste" width={35} height={35}></Image>
-              <span>Contraste</span>
-
-            </div>
             <div onClick={trocar} style={{ cursor: 'pointer' }}>
             <Image src="/imagens/seta_direita.png" alt="seta para direita" width={50} height={50}></Image>
             </div>

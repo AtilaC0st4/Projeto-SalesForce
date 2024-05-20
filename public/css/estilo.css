@@ -130,7 +130,7 @@ a {
 
 
 .menu_acessibilidade {
-    width: 700px;
+    width: 400px;
     height: 100px;
     margin: 50px 0;
     background-color: #F1EEEE;
@@ -819,10 +819,8 @@ form {
     font-size: 12px;
     font-weight: bold;
     padding: 10px 10px;
-
+    
 }
-
-
 
 
 /* ===================== Responsividade =================== */
@@ -948,13 +946,6 @@ form {
     }
 
 
-
-
-
-
-
-
-
 .grupos{
     width: 200px;
     border-bottom: #adadad solid 1px;
@@ -966,8 +957,7 @@ form {
 
     .menu_acessibilidade {
         width: 250px;
-        height: 450px;
-        
+        height: 275px;
         flex-direction: column;
         gap: 20px;
         

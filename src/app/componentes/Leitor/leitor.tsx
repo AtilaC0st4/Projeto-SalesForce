@@ -39,7 +39,7 @@ const LeitorDePagina: React.FC<LeitorDePaginaProps> = ({ text }) => {
 
  return (
     <div className='container_leitor'>
-      <div className='icons' onClick={IniciarLeitor}> <Image src="/imagens/leitor.png" alt="icone de leitor de página" width={35} height={35}></Image></div>
+      <div className='icons' onClick={IniciarLeitor}> <Image src="/imagens/leitor_pagina.png" alt="icone de leitor de página" width={35} height={35}></Image></div>
       <div className='icons' onClick={pausaLeitor}><Image src="/imagens/pause.png" alt="icone de pause" width={35} height={35}></Image></div>
       <div className='icons' onClick={resumeLeitor}><Image src="/imagens/play.png" alt="icone de play" width={35} height={35}></Image></div>
       <div className='icons' onClick={stopLeitor}><Image src="/imagens/stop.png" alt="icone de stop" width={35} height={35}></Image></div>
